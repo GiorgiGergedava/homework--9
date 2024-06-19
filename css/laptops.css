@@ -1,0 +1,16 @@
+@media (max-width :1240px) {
+
+    .header_li {
+        font-size: 5px;
+    }
+
+
+    .heder_icon2 {
+        width: 5px;
+    }
+
+    .header_logo{
+        size: 2px;
+    }
+
+}
