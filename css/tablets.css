@@ -27,4 +27,8 @@ h3{
     font-size: 24px;
     line-height: 36px;
 }
+.section3_rigthside_motherbox {
+    flex-direction: column;
+    row-gap: 20px;
+}
 }

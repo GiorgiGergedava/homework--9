@@ -9,9 +9,29 @@
         padding-inline: 92px;
     }
     /* section2 */
-    /* .none1025{
-        display: none;
-    } */
+   
+    /* section3 */
+    .section3{
+        padding-inline: 92px;
+    }
+    .section3_leftside_box {
+        width: 840px;
+        height: 400px;
+    
+    }
+    .section3_mother {
+        width: 100%;
+        flex-wrap: wrap;
+        /* padding-inline: 92px; */
+    }
+    .section3_rigthside_motherbox{
+        flex-direction: row;
+        column-gap: 20px
+    }
+    .section3_rigthside_motherbox{
+        width: 100%;
+    }
+
 
 }
 
@@ -35,6 +55,14 @@
     }
     .section2_cards_container{
         flex: 1 0 380px;
+    }
+.section3_leftside_box {
+        height: 320px;
+    }
+
+    /* footer  */
+    footer {
+        margin-top: 80px;
     }
 
 }

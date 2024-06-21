@@ -15,4 +15,7 @@ padding-inline: 14px;
     .section2_cards_container{
         flex: 1 0 240px;
     }
+    footer {
+        margin-top: 48px;
+    }
 }
