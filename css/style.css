@@ -1,86 +1,83 @@
 .container {
-    width: min(100%, 1440px);
+    width: min(100%, 1440);
     margin: auto;
 }
 
 /* header */
-
 header {
-
+    /* background-color: aqua; */
+    padding: 6px 130px;
     display: flex;
     justify-content: space-between;
-    padding: 13px 130px;
 }
 
-.header_logo_box {
-    display: flex;
-    align-items: center;
-
-
+.burgera {
+    display: none;
 }
 
-.header_logo {
-    display: flex;
-    align-items: center;
-
-
-    padding-right: 14px;
-}
-
-.header_logo_text {
-    width: 123px;
-    height: 28px;
-    top: 5px;
-    display: flex;
-    align-items: center;
+.header_left {
+    font-family: Pridi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.9px;
     color: #FA793C;
-
-
+    display: flex;
+    column-gap: 14px;
+    align-items: center;
 
 }
 
-.header_nav {
+.header_right {
     display: flex;
     align-items: center;
-    /* align-content: center; */
+    column-gap: 40px;
 }
 
-.header_ul {
+.header_right_ul {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     column-gap: 32px;
-    padding-left: 635px;
 }
 
-.header_li {
+.header_right_a {
     font-family: ABeeZee;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    column-gap: 32px;
-
+    color: #000000;
 
 }
 
-.header_icon2 {
+/* section */
+.section1 {
+    height: 550px;
+    background-image: url("../images/section1_cover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: flex;
-    align-items: center;
-    padding-left: 40px;
+    row-gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 130px;
 }
 
-/* @media (max-width :1240px) {
+h2 {
+    font-family: Kanit;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 75px;
+    color: #FFFFFF;
+    text-align: center;
+}
 
-    .header_li {
-        font-size: 5px;
-    }
+.section1_text {
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    text-align: center;
 
-
-    .heder_icon2 {
-        width: 5px;
-    }
-
-    .header_logo{
-        size: 2px;
-    }
-
-} */
+}

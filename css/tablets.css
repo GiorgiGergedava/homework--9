@@ -1,0 +1,21 @@
+@media (max-width :681px) {
+    .burgera{
+        display: block;
+        
+    }
+    .header_right_nav{
+        display: none;
+    }
+
+    /* section1 */
+    h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .section1_text{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+
+}
