@@ -81,3 +81,65 @@ h2 {
     text-align: center;
 
 }
+
+/* section2 */
+
+.section2 {
+
+    width: calc(1180 / 1440 * 100%);
+    margin: 130px auto;
+
+}
+
+h3 {
+    font-family: Kanit;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #000000;
+    margin-bottom: 34px;
+
+}
+
+.section2_cards_container_mein {
+
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.section2_cards_container {
+    border: 1px solid black;
+
+}
+
+.section2_cards_img {
+    width: 100%;
+    height: 189px;
+    object-fit: cover;
+}
+
+
+h4 {
+    font-family: Kanit;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #000000;
+    margin: 16px 16px 8px;
+
+}
+
+
+
+.section2_cards_container_text {
+    font-family: Kanit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 16px 16px;
+
+}

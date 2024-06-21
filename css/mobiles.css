@@ -8,4 +8,11 @@ padding-inline: 14px;
         padding-inline: 14px;
         height: 431px;
     }
+    /* section2 */
+    .section2{
+        margin-block: 48px;
+    }
+    .section2_cards_container{
+        flex: 1 0 240px;
+    }
 }

@@ -8,6 +8,10 @@
     .section1{
         padding-inline: 92px;
     }
+    /* section2 */
+    /* .none1025{
+        display: none;
+    } */
 
 }
 
@@ -22,6 +26,17 @@
         padding-inline: 67px;
         height: 438px;
     }
+    /* section2 */
+    .section2{
+        margin-block: 80px;
+    }
+    .section2_cards_container_mein{
+        overflow-x: scroll;
+    }
+    .section2_cards_container{
+        flex: 1 0 380px;
+    }
+
 }
 
 
